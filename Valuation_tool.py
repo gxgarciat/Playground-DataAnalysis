@@ -6,9 +6,7 @@ from sklearn.metrics import mean_squared_error
 import pandas as pd
 import numpy as np
 
-
 # Gathering data
-
 
 boston_dataset = load_boston()
 data = pd.DataFrame(data=boston_dataset.data,columns=boston_dataset.feature_names)
